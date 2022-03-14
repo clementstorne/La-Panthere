@@ -41,14 +41,17 @@
     <!-- Principal conteneur -->
     <div class="page-container">
       <!-- bloc-0 -->
-      <header class="bloc bgc-white l-bloc" id="bloc-0">
+      <header class="bloc bgc-white l-bloc" id="bloc-0" role="banner">
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <a class="navbar-brand" href="index.html"
+              <a
+                class="navbar-brand"
+                href="index.html"
+                aria-label="Lien vers la page d'accueil"
                 ><img
                   src="img/agence-la-panthere-monochrome.png"
-                  alt="Logo de l'agence La Panthère"
+                  alt="Site internet de l'agence La Panthère"
                   height="40"
               /></a>
               <button
@@ -64,13 +67,26 @@
               </button>
             </div>
             <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-              <ul class="site-navigation nav navbar-nav">
+              <ul
+                class="site-navigation nav navbar-nav"
+                role="menubar"
+                aria-label="Navigation dans le site"
+              >
                 <li>
-                  <a href="index.html">Accueil</a>
+                  <a
+                    href="index.html"
+                    role="menuitem"
+                    aria-label="Lien vers la page d'accueil"
+                    >Accueil</a
+                  >
                 </li>
                 <li></li>
                 <li>
-                  <a href="formulaire-contact.html">Contact</a>
+                  <a
+                    href="formulaire-contact.html"
+                    aria-label="Lien vers le formulaire de contact"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </div>
@@ -98,7 +114,9 @@
               </h1>
               <div class="text-center">
                 <a
-                  href="page2.html"
+                  href="formulaire-contact.html"
+                  role="button"
+                  aria-label="Lien vers le formulaire de contact"
                   class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine"
                   id="cta-hero"
                   >Contact</a
@@ -203,7 +221,10 @@
                 votre site, n’hésitez pas à nous contacter. Nous travaillerons
                 ensemble pour créer des sites beau et bien structurés, qui
                 seront facilement trouvable sur les moteurs de recherche.
-                <br /><br /><a class="ltc-white bold-link" href="page2.html"
+                <br /><br /><a
+                  class="ltc-white bold-link"
+                  href="formulaire-contact.html"
+                  aria-label="Lien vers le formulaire de contact"
                   >Contactez notre équipe</a
                 ><br />
               </p>
@@ -329,8 +350,10 @@
             </h2>
             <div class="col-sm-12 text-center">
               <a
-                href="page2.html"
+                href="formulaire-contact.html"
                 class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero"
+                role="button"
+                aria-label="Lien vers le formulaire de contact"
                 >Contact</a
               >
             </div>
